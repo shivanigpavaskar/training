@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        input {
+            border-radius: 5px;
+            font-size: medium;
+
+        }
+
+        form {
+            padding: 5%;
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+            left: 30%;
+            display: block;
+            margin-left: 25%;
+        }
+
+        #container {
+
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <img style="position:fixed; width: 100%; top: 0; right: 0; z-index: -1;  height: 100vh;"
+        src="6b201623685e7093fe7df8970b1d26b5_upscaled.jpg">
+    <img style=" float: left; position: fixed;" width="250px" height="250px"
+        src=" Shutterstock_2210188067-transformed-removebg-preview.png">
+
+
+    <div id="container">
+        <form action="docs.php" method="post" enctype="multipart/form-data">
+
+            <h3>Select File To Upload!</h3><br>
+            <input type="file" name="files" id="files"><br><br>
+            <input type="submit" value="Upload files">
+        </form>
+    </div>
+
+</body>
+
+
+</html>

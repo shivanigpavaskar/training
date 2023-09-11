@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+          form {
+             padding: 5%;
+            width: 700px;
+            height: 350px;
+            left: 50%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20%;
+            margin-top: 8%;
+            
+            
+         }    
+         body {
+background-color: rgba(35, 92, 191, 0.881);
+         }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display:inline-block;
+            text-align: right;
+             width: 200px; 
+        }
+
+        input{
+            padding-left: 10px;
+            border-radius: 5px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <form name="form1">
+<fieldset style="color: rgb(237, 237, 237);">
+    <legend style="color: silver;">Registration Details</legend>
+
+            <div>
+                <label>University: </label>
+                <input style="width:  250px;" type="textbox" name="ins" /><br><br>
+            </div>
+
+
+            <div>
+                <label>Institute: </label>
+                <input style="width:  250px;"  type="textbox" name="ins"><br><br>
+            </div>
+
+
+            <div>
+                <label for="branch">Branch:</label>
+                <select style="width: 160px; border-radius: 5px;"   name="branch" id="branch">
+                    <option value="">--select--</option>
+                    <option value="comp">Computer</option>
+                    <option value="ece">Electronics</option>
+                    <option value="mech">Mechanical</option>
+                    <option value="IT">IT</option>
+                    <option value="civil">Civil</option>
+                </select><br><br>
+            </div>
+
+
+            <div>
+                <label for="degree">Degree:</label>
+                <select  style="width:120px;  border-radius: 5px;" name="degree" id="degree">
+                    <option value="">--select--</option>
+                    <option value="fe">FE</option>
+                    <option value="se">SE</option>
+                    <option value="te">TE</option>
+                    <option value="be">BE</option>
+                    <input type="radio" name="degree">Pursuing
+                    <input type="radio" name="degree">Completed
+                </select><br><br>
+            </div>
+
+
+
+            <div>
+                <label>Average CPI:  </label>
+                <input style="width:  25px;" type="number" name="txtcpi">
+                <label style="width: auto;">Upto:</label><input  style="width:  25px;" type="number" name="txtup">Th semester<br><br>
+            </div>
+
+
+
+            <div>
+                <label>Experience:</label>
+                <input style="width: 30px;"    type="number" name="txtexp"> Years<br><br>
+            </div>
+
+
+            <div>
+                <label>Your Website Or Blog:</label>
+                <input type="textbox" name="txtvalue" placeholder="http://"><br><br>
+
+            </div>
+
+</fieldset>
+        </form>
+
+    </div>
+
+    </script>
+
+
+</body>
+
+</html>

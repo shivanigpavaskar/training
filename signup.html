@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="signup.css">
+
+<style>
+    .a{
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    color:black;
+    float: right;   
+}
+</style>
+
+
+</head>
+
+<body>
+    <img  style="position:fixed; width: 100%; top: 0; right: 0; z-index: -1;  height: 100vh;" src="6b201623685e7093fe7df8970b1d26b5_upscaled.jpg">
+     <img  style="position: fixed;"  width="250px"  height="250px"   src=" Shutterstock_2210188067-transformed-removebg-preview.png">
+
+    
+       
+ 
+
+    <div class="sign-up">
+        <form onsubmit="takevalue()"  >
+            <label for="fname">Enter Your Full-Name</label><br>
+            <input type="text" class="input-box"  id="fname" name="fname" placeholder="Enter Your Name"><br><br>
+
+            <label for="fname">Enter Your Address</label><br>
+            <input type="text" class="input-box" id="add"   name="address"  placeholder="Enter Your Address"><br><br>
+
+            <label for="age">Enter Your Age</label><br>
+            <input type="number" class="input-box"  id="age"    placeholder="Enter Your Age"><br><br>
+
+
+            <label for="gender">Select your Gender</label><br>
+            <input type="radio" class="input-box" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" class="input-box"  id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" class="input-box"  id="other"    name="gender" value="others">
+            <label for="female">Others</label><br><br>
+
+            <label for="email">Enter Your Email</label><br>
+            <input type="email" class="input-box"  id="email"    name="email" placeholder="Enter Your Email"><br><br>
+
+            <label for="Password">Enter Your Password</label><br>
+            <input type="password" class="input-box"  id="password"  name="Password" placeholder="Enter Password"><br><br>
+
+
+            <label for="Password">Re-Enter Your Password</label><br>
+            <input type="password" class="input-box"  id="rpassword"   name="Password" placeholder="Re Enter Password "><br><br>
+
+            <button type="submit"  value="Submit"><a  style="text-decoration: none; color: black;">SUBMIT</a></button>
+            <p class="">OR</p>
+
+            <p>Already have an account?<br><br>
+                <button><a style="text-decoration: none; color:black;" href="signin.html">SIGNIN</a></button></p>
+
+
+        </form>
+    </div>
+
+
+
+
+
+<script>
+ 
+function takevalue(){
+
+var fname = document.getElementById("fname").value;
+var  add = document.getElementById("add").value;
+var age = document.getElementById("age").value;
+// var male = document.getElementById("male").value;
+// var female = document.getElementById("female").value;
+// var others = document.getElementById("others").value;
+var email = document.getElementById("email").value;
+var password = document.getElementById("password").value;
+var rpassword = document.getElementById("rpassword").value;
+
+ 
+
+
+
+document.write("Entered name is  " + fname);
+document.write("<br>Address  is  " + add);
+document.write("<br>Entered age is  " + age);
+// document.write("Entered name is  " + gender);
+document.write("<br>Entered email is  " + email);
+document.write("<br>Entered password is  " + password);
+ document.write("<br>Confirmed Password is  " + rpassword);
+ 
+}
+
+
+
+</script>
+
+
+
+</body>
+
+</html>
