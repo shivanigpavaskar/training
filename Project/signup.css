@@ -1,0 +1,78 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(6b201623685e7093fe7df8970b1d26b5_upscaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 615px;
+    */
+
+
+.sign-up {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+     /* margin: 8% 25%; */
+     align-items: center;
+     justify-content: center;
+    display: flex;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(165, 43, 225), rgb(90, 149, 237), rgb(229, 177, 63), rgb(182, 6, 9));
+    height: 100vh;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 100px;
+    left: 28%;
+     
+    
+ }
+
+.input-box {
+    border-radius: 10px;
+    font-size: medium;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+
+form {
+    padding-top: 10px;
+}
+
+
+label {
+    color: white;
+}
+
+
+p {
+    color: white;
+}
+
+button {
+    font-size: medium;
+    border-radius: 10px;
+    width: 150px;
+    height: 25px;
+    background-color: orange;
+    padding: 2px;
+    text-align: center;
+
+}
+
+
+li{ 
+    display: inline-block;
+}
+
+
+
+
+ 
+
+
+
+ 
